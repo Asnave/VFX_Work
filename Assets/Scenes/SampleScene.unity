@@ -446,12 +446,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 466435241}
-  m_LocalRotation: {x: 0.16382572, y: -0.7073575, z: 0.1551453, w: -0.6698779}
-  m_LocalPosition: {x: -0.697, y: 0.096, z: -0.085}
-  m_LocalScale: {x: 0.07712401, y: 1.3056, z: 0.17441249}
+  m_LocalRotation: {x: 0.16382574, y: -0.7073575, z: 0.15514532, w: -0.6698779}
+  m_LocalPosition: {x: -0.5426183, y: -0.11372143, z: 0.26807424}
+  m_LocalScale: {x: 0.07712401, y: 1.3056, z: 0.1744125}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1179361311}
+  m_Father: {fileID: 1857613508}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: -266.88202, z: -26.08}
 --- !u!1 &832575517
@@ -851,7 +851,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.5
+      scalar: 0.8
       minScalar: 0.1
       maxCurve:
         serializedVersion: 2
@@ -1117,7 +1117,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 3
       scalar: -1.5707963
-      minScalar: 0.017453292
+      minScalar: 0
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -1228,7 +1228,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 25
+    angle: 44.1
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -1314,7 +1314,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 0.5
       mode: 0
       spread: 0
       speed:
@@ -5314,12 +5314,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 834853232}
   m_LocalRotation: {x: -0.50130814, y: -0.49868837, z: 0.49868852, w: 0.50130826}
-  m_LocalPosition: {x: 0.6200927, y: 0.39, z: -0.225}
-  m_LocalScale: {x: 0.21871091, y: 0.21871091, z: 0.78267056}
+  m_LocalPosition: {x: -0.201, y: 0.089, z: -0.133}
+  m_LocalScale: {x: 0.21871094, y: 0.21871093, z: 0.7826706}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1179361311}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -0.3, y: -90, z: 90}
 --- !u!1 &935174965
 GameObject:
@@ -5412,11 +5412,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935174965}
   m_LocalRotation: {x: 0.6301291, y: -0.3607367, z: 0.59674144, w: -0.34162277}
-  m_LocalPosition: {x: -0.697, y: 0.096000016, z: -0.08500001}
-  m_LocalScale: {x: 0.10069313, y: 1, z: 0.17441246}
+  m_LocalPosition: {x: -0.5426183, y: -0.11372143, z: 0.26807424}
+  m_LocalScale: {x: 0.10069313, y: 1, z: 0.17441244}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1179361311}
+  m_Father: {fileID: 1857613508}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -266.88202, z: -120.419}
 --- !u!1001 &1038596482
@@ -5429,7 +5429,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f45aa7a36f84534e927b990f7dd48e4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f45aa7a36f84534e927b990f7dd48e4,
         type: 3}
@@ -5615,6 +5615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1179361311}
+  - component: {fileID: 1179361312}
   m_Layer: 0
   m_Name: FireBall
   m_TagString: Untagged
@@ -5629,18 +5630,38 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179361310}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.48794723, y: 0.30339044, z: -0.09169355}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 0.48794723, y: 0.3316592, z: 0.098438025}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 935174969}
-  - {fileID: 466435245}
   - {fileID: 833124155}
   - {fileID: 1449578739}
+  - {fileID: 834853235}
+  - {fileID: 1857613508}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 360, y: 0, z: 0}
+--- !u!95 &1179361312
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1179361310}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1ce719f7c0e6c7d40bea1c982ed172aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1449578738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5651,7 +5672,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 6f45aa7a36f84534e927b990f7dd48e4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f45aa7a36f84534e927b990f7dd48e4,
         type: 3}
@@ -5736,3 +5757,36 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1449578738}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1857613507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857613508}
+  m_Layer: 0
+  m_Name: FireBallTrail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1857613508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857613507}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.15438175, y: 0.20923579, z: -0.35327938}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 935174969}
+  - {fileID: 466435245}
+  m_Father: {fileID: 1179361311}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
