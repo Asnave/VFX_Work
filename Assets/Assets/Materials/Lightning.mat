@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LightingAlpha
+  m_Name: Lightning
   m_Shader: {fileID: -6465566751694194690, guid: 6f4c076519454dc4ea269af456a8fa07,
     type: 3}
   m_ValidKeywords: []
@@ -127,7 +127,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ScrollSpeed: 0.057
+    - _ScrollSpeed: 0.5
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
