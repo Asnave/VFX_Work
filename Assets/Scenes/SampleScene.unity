@@ -123,6 +123,67 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &127710632
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_Name
+      value: Gladius
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0051330985
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.9261718
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.000001975894
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f34b64c219343940999afb54f7fee90, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1aed844f00281f143afeffed1df20c36, type: 3}
 --- !u!1 &205602962
 GameObject:
   m_ObjectHideFlags: 0
@@ -15185,7 +15246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &477161200
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -15282,7 +15343,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!199 &810709581
 ParticleSystemRenderer:
   serializedVersion: 6
