@@ -101,8 +101,8 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _GradidentNoisePower: 5
-    - _GradidentNoiseScale: 22.55
+    - _GradidentNoisePower: 11.6
+    - _GradidentNoiseScale: 16.6
     - _Metallic: 0.5
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -120,7 +120,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _GradidentNoiseColor: {r: 2.1537013, g: 9.251125, b: 9.349021, a: 0}
+    - _GradidentNoiseColor: {r: 127.84962, g: 69.95446, b: 221.34845, a: 0}
     - _GradidentNoiseSpeed: {r: 0, g: 0.2, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
