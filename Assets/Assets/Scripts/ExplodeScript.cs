@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ExplodeScript : MonoBehaviour
 {
+    public float destroyDelay;
     public float minForce;
     public float maxForce;
     public float radius;
@@ -23,6 +24,8 @@ public class ExplodeScript : MonoBehaviour
             {
                 rb.AddExplosionForce(Random.Range(minForce, maxForce), transform.position, radius);
             }
+
+            Destroy(t.gameObject, destroyDelay);
         }
     }
 }
