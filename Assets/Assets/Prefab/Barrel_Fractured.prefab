@@ -2619,9 +2619,12 @@ MonoBehaviour:
   explosion: {fileID: 3787263082273614351, guid: bd1cca42a14e9c1408f47752762de3c1,
     type: 3}
   explosionOffset: {x: 0, y: 1, z: 0}
+  smokeTrail: {fileID: 1583899116520054303, guid: 11a0b78db01f2c84aabd9591762cf704,
+    type: 3}
+  maximumSmoke: 10
   destroyDelay: 5
-  minForce: 10
-  maxForce: 120
+  minForce: 50
+  maxForce: 250
   radius: 10
 --- !u!1 &4869456382190713183
 GameObject:
