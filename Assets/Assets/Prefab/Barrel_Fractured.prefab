@@ -2616,6 +2616,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d0c7dc9b0bdf041b3dc0498690bf67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 3787263082273614351, guid: bd1cca42a14e9c1408f47752762de3c1,
+    type: 3}
+  explosionOffset: {x: 0, y: 1, z: 0}
   destroyDelay: 5
   minForce: 10
   maxForce: 120

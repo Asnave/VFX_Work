@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ExplodeScript : MonoBehaviour
 {
+    public GameObject explosion;
+    public Vector3 explosionOffset;
     public float destroyDelay;
     public float minForce;
     public float maxForce;
@@ -16,6 +18,12 @@ public class ExplodeScript : MonoBehaviour
 
     public void Explode()
     {
+
+        if (explosion != null)
+        {
+            GameObject explosionFX = Instantiate(explosion, transform.position + explosionOffset, Quaternion.identity) as GameObject;
+            Destroy(explosionFX, 5);
+        }
         foreach (Transform t in transform)
         {
             var rb = t.GetComponent<Rigidbody>();
