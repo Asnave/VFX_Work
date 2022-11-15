@@ -7,11 +7,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3442608073289192010, guid: 93aa17c811622d445b8f99f7b2f149f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 390910d5b701726459ab2ee4277858d3, type: 2}
     - target: {fileID: 3802838800936530847, guid: 93aa17c811622d445b8f99f7b2f149f3,
         type: 3}
       propertyPath: m_Name
-      value: TNTBarrel
+      value: TNTBarrel Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3991387929261614073, guid: 93aa17c811622d445b8f99f7b2f149f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 390910d5b701726459ab2ee4277858d3, type: 2}
     - target: {fileID: 4579515481283930405, guid: 93aa17c811622d445b8f99f7b2f149f3,
         type: 3}
       propertyPath: m_RootOrder
@@ -67,5 +77,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6901946998719626597, guid: 93aa17c811622d445b8f99f7b2f149f3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 390910d5b701726459ab2ee4277858d3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93aa17c811622d445b8f99f7b2f149f3, type: 3}
