@@ -17,7 +17,9 @@ public class Abilities : MonoBehaviour
 
     public Image abilityImage1;
 
+    GameObject ability1FX;
     public GameObject ability1VFX;
+    public Transform target;
 
     // Start is called before the first frame update
     void Start()
@@ -45,11 +47,20 @@ public class Abilities : MonoBehaviour
         transRot.eulerAngles = new Vector3(0, transRot.eulerAngles.y, 0);
 
        ability1Canvas.transform.rotation = Quaternion.Lerp(transRot, ability1Canvas.transform.rotation, 0f);
-       
-        
-       
-    }
 
+    }
+    public void VFXSpawner()
+    {
+        // VFX 
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 8;
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
+        ability1FX = Instantiate(ability1VFX, worldPosition, Quaternion.identity);
+
+        ability1FX.transform.LookAt(target);
+
+        Destroy(ability1FX, cooldown1);
+    }
     public void Ability1()
     {
         if (Input.GetKey(ability1) && isCoolDown == false)
@@ -58,13 +69,9 @@ public class Abilities : MonoBehaviour
             abilityImage1.fillAmount = 1;
             skillShot.GetComponent<Image>().enabled = true;
 
-            // VFX 
-            Vector3 mousePos = Input.mousePosition;
-            mousePos.z = 10;
-            Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
-            GameObject ability1FX = Instantiate(ability1VFX, worldPosition, Quaternion.identity);
+            VFXSpawner();
 
-            Destroy(ability1FX, cooldown1);
+            
             Debug.Log("Cooldown");
         }
 
