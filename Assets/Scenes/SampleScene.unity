@@ -30106,6 +30106,8 @@ MonoBehaviour:
   skillShot: {fileID: 301445114}
   player: {fileID: 477161203}
   abilityImage1: {fileID: 1086751931}
+  ability1VFX: {fileID: 4772893901468469033, guid: 2fe30db891bb2da46b2cd4bbfd305ed7,
+    type: 3}
 --- !u!1 &487431145
 GameObject:
   m_ObjectHideFlags: 0
