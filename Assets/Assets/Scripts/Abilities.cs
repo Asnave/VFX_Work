@@ -20,6 +20,7 @@ public class Abilities : MonoBehaviour
     GameObject ability1FX;
     public GameObject ability1VFX;
     public Transform target;
+    public float mousePosZ = 8;
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +54,7 @@ public class Abilities : MonoBehaviour
     {
         // VFX 
         Vector3 mousePos = Input.mousePosition;
-        mousePos.z = 8;
+        mousePos.z = mousePosZ;
         Vector3 worldPosition = Camera.main.ScreenToWorldPoint(mousePos);
         ability1FX = Instantiate(ability1VFX, worldPosition, Quaternion.identity);
 
