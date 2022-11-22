@@ -14908,7 +14908,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 301445112}
   m_LocalRotation: {x: 0.7070471, y: -0.009188472, z: -0.009188475, w: 0.7070471}
-  m_LocalPosition: {x: 0, y: 0, z: -1.11}
+  m_LocalPosition: {x: 0, y: 0, z: 1.96}
   m_LocalScale: {x: 0.34112, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14917,7 +14917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 91.48901, y: 90, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.25, y: 1}
+  m_AnchoredPosition: {x: -0.01, y: 1.43}
   m_SizeDelta: {x: 5, y: 3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &301445114
@@ -29925,6 +29925,7 @@ GameObject:
   - component: {fileID: 477161202}
   - component: {fileID: 477161201}
   - component: {fileID: 477161200}
+  - component: {fileID: 477161204}
   m_Layer: 0
   m_Name: PLayer
   m_TagString: Untagged
@@ -30004,13 +30005,30 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 477161199}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.22, y: 1.41, z: -3.11}
+  m_LocalPosition: {x: 0, y: 1.41, z: 0}
   m_LocalScale: {x: 0.64242476, y: 0.64242476, z: 0.64242476}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &477161204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 477161199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cd891656945f9438ed8ebd4d716680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldown1: 3
+  ability1: 119
+  ability1Canvas: {fileID: 1987536951}
+  skillShot: {fileID: 301445114}
+  player: {fileID: 477161203}
 --- !u!1 &487431145
 GameObject:
   m_ObjectHideFlags: 0
@@ -74211,7 +74229,7 @@ GameObject:
   - component: {fileID: 1987536950}
   - component: {fileID: 1987536949}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: Ability1Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
