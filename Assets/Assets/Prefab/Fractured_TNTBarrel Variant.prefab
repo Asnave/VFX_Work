@@ -459,9 +459,9 @@ MonoBehaviour:
     type: 3}
   maximumSmoke: 5
   destroyDelay: 5
-  minForce: 100
-  maxForce: 250
-  radius: 10
+  minForce: 10
+  maxForce: 50
+  radius: 30
 --- !u!1 &6322321607922608527 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6452640217397242390, guid: 9efd9fed610a3fc4995c41dce95afa18,
